@@ -1,32 +1,32 @@
-<img align="left" src="https://github.com/Alierenkayhan/ehealth/blob/main/githubbanner/banner.png?raw=true" alt="Alierenkayhan" width ="100%" height = "auto"/></p>
+<img align="left" src="https://github.com/Alierenkayhan/QREmergancyFirstAid/blob/main/githubbanner/banner.png?raw=true" alt="Alierenkayhan" width ="100%" height = "auto"/></p>
     
-# ehealth
+# QREmergancyFirstAid
  
 <div align="center">
     
   
-![GitHub watchers](https://img.shields.io/github/watchers/Alierenkayhan/ehealth?style=social)   
-![GitHub forks](https://img.shields.io/github/forks/Alierenkayhan/ehealth?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/Alierenkayhan/ehealth?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Alierenkayhan/QREmergancyFirstAid?style=social)   
+![GitHub forks](https://img.shields.io/github/forks/Alierenkayhan/QREmergancyFirstAid?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/Alierenkayhan/QREmergancyFirstAid?style=social)
  
-[![GitHub license](https://img.shields.io/github/license/Alierenkayhan/ehealth)](https://github.com/Alierenkayhan/ehealth/blob/main/LICENSE)    
+[![GitHub license](https://img.shields.io/github/license/Alierenkayhan/QREmergancyFirstAid)](https://github.com/Alierenkayhan/QREmergancyFirstAid/blob/main/LICENSE)    
  
-[![GitHub issues:](https://img.shields.io/github/issues/Alierenkayhan/ehealth)](https://img.shields.io/github/issues/Alierenkayhan/ehealth)
-![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Alierenkayhan/ehealth)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Alierenkayhan/ehealth)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Alierenkayhan/ehealth) 
-[![GitHub forks:](https://img.shields.io/github/forks/Alierenkayhan/ehealth)](https://img.shields.io/github/forks/Alierenkayhan/ehealth)
-[![GitHub stars:](https://img.shields.io/github/stars/Alierenkayhan/ehealth)](https://img.shields.io/github/stars/Alierenkayhan/ehealth)
-![GitHub search hit counter](https://img.shields.io/github/search/Alierenkayhan/ehealth/goto)
+[![GitHub issues:](https://img.shields.io/github/issues/Alierenkayhan/QREmergancyFirstAid)](https://img.shields.io/github/issues/Alierenkayhan/QREmergancyFirstAid)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/Alierenkayhan/QREmergancyFirstAid)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Alierenkayhan/QREmergancyFirstAid)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/Alierenkayhan/QREmergancyFirstAid) 
+[![GitHub forks:](https://img.shields.io/github/forks/Alierenkayhan/QREmergancyFirstAid)](https://img.shields.io/github/forks/Alierenkayhan/QREmergancyFirstAid)
+[![GitHub stars:](https://img.shields.io/github/stars/Alierenkayhan/QREmergancyFirstAid)](https://img.shields.io/github/stars/Alierenkayhan/QREmergancyFirstAid)
+![GitHub search hit counter](https://img.shields.io/github/search/Alierenkayhan/QREmergancyFirstAid/goto)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Alierenkayhan/ehealth)
-![GitHub last commit](https://img.shields.io/github/last-commit/Alierenkayhan/ehealth)
-![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc/ehealth)
-![GitHub repo size](https://img.shields.io/github/repo-size/Alierenkayhan/ehealth)
-![GitHub top language](https://img.shields.io/github/languages/top/Alierenkayhan/ehealth) 
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Alierenkayhan/QREmergancyFirstAid)
+![GitHub last commit](https://img.shields.io/github/last-commit/Alierenkayhan/QREmergancyFirstAid)
+![Sourcegraph for Repo Reference Count](https://img.shields.io/sourcegraph/rrc/QREmergancyFirstAid)
+![GitHub repo size](https://img.shields.io/github/repo-size/Alierenkayhan/QREmergancyFirstAid)
+![GitHub top language](https://img.shields.io/github/languages/top/Alierenkayhan/QREmergancyFirstAid) 
 
-![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/ehealth/total)
- <a href="https://github.com/Alierenkayhan/ehealth/archive/refs/heads/main.zip">
+![GitHub all releases](https://img.shields.io/github/downloads/Alierenkayhan/QREmergancyFirstAid/total)
+ <a href="https://github.com/Alierenkayhan/QREmergancyFirstAid/archive/refs/heads/main.zip">
 <img src="https://img.shields.io/badge/Download-Project-blue" /></a> 
 </div>
 
@@ -47,12 +47,12 @@
     Max Kochanski<br />
     Philipp Langeslag
     <br /><hr>
-    <a href="https://github.com/Alierenkayhan/ehealth"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Alierenkayhan/QREmergancyFirstAid"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Alierenkayhan/ehealth/issues">Report Bug</a>
+    <a href="https://github.com/Alierenkayhan/QREmergancyFirstAid/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Alierenkayhan/ehealth/issues">Request Feature</a>
+    <a href="https://github.com/Alierenkayhan/QREmergancyFirstAid/issues">Request Feature</a>
   </p>
 </div>
 
@@ -81,7 +81,7 @@
 1. To Get Started, Fork this repository to your GitHub account:
 2. Clone the repo from your account using:
    ```sh
-   git clone https://github.com/Alierenkayhan/ehealth.git
+   git clone https://github.com/Alierenkayhan/QREmergancyFirstAid.git
    ```
 3. Open in Visual Studio Code
 4. Open Folder and then select your folder
@@ -92,7 +92,7 @@
 
 After cloning the project, you can open it in VS code.
 
-See the [open issues](https://github.com/Alierenkayhan/ehealth/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Alierenkayhan/QREmergancyFirstAid/issues) for a full list of proposed features (and known issues).
 
 
 <!-- CONTRIBUTING -->
@@ -124,6 +124,7 @@ Don't forget to give the project a star! Thanks again!
     </tr>
 </table>
 <!-- readme: contributors -end -->
+
 <!-- LICENSE -->
 ## 📝 License
 
@@ -135,7 +136,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 If you have any feedback, please contact me at ali_erenbatman@hotmail.com.
 
-Project Link: [https://github.com/Alierenkayhan/ehealth](https://github.com/Alierenkayhan/ehealth)
+Project Link: [https://github.com/Alierenkayhan/QREmergancyFirstAid](https://github.com/Alierenkayhan/QREmergancyFirstAid)
 
 
 <!-- Resources -->
