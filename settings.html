@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>QR Emergancy | Dr.Ali Eren Kayhan </title>
+	<title>QR Emergancy | Dr.Ali Eren Kayhan | Settings </title>
 	    <!--    Favicons-->
     <!-- ===============================================-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo.png">
@@ -78,10 +78,11 @@
       <div class="container-fluid d-flex align-items-center">
         <div class="row">
           <div class="col-lg-7 col-md-10">
-            <h1 class="display-2 text-white">Hello</h1>
+            <h1 class="display-2 text-white">Settings</h1>
             
-            <p class="text-white mt-0 mb-5">This is a profile page. You can see information about yourself.</p>
+            <p class="text-white mt-0 mb-5">You can change information about yourself.</p>
 
+            
             <a href="index.html"><button class="btn btn-sm btn-primary" id="notnow" style="font-size: larger;margin-bottom: 5px;">Log out</button></a>
 
 
@@ -99,44 +100,67 @@
                 <div class="card-profile-image">
                   <a href="#">
                     <img src="assets/img/team/ben.jpg" class="rounded-circle">
-                  </a>
+                    <div>
+                    </div>
+                  </a>  
+                </div>
+                <div>
                 </div>
               </div>
             </div>
+
             <div class="card-header text-center border-0 pt-8 pt-md-4 pb-0 pb-md-4">
-           
+          
             </div>
+           
             <div class="card-body pt-0 pt-md-4">
-              <div class="row">
+              <div class="row"> 
                 <div class="col">
-                  <div class="card-profile-stats d-flex justify-content-center mt-md-5">
-                    <div>
-                      <span class="heading">A+</span>
+                  <input type="file" id="img" name="img" accept="image/*" style="margin-top:10%;margin-left: 35%;"> 
+
+                  <div class="card-profile-stats d-flex justify-content-center mt-md-4">
+                    <div >
+
+                        <input type="text" id="input-username" class="form-control form-control-alternative"  style="width:50px" value="A+">
                       <span class="description">Blood</span>
                     </div>
                     <div>
-                      <span class="heading">24</span>
+                        <input type="text" id="input-username" class="form-control form-control-alternative"  style="width:50px" value="24">
                       <span class="description">Age</span>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="text-center">
-                <h3>
-                  Ali Eren Kayhan<span class="font-weight-light">, 24</span>
-                </h3>
+                
+                <input type="text" id="input-username" class="form-control form-control-alternative"  style="
+                width:150px;
+                justify-content: center;
+                display: inline;" 
+                value="Ali Eren Kayhan, 24">
+                 
+<br/>
+                  <br/>
                 <div class="h5 font-weight-300">
-                  <i class="ni location_pin mr-2"></i>Bremen, Germany
-                </div>
+                    <input type="text" id="input-username" class="form-control form-control-alternative"  style="width:170px;font-size: larger;font-weight: bold; justify-content: center;
+                    display: inline;"   value="Bremen, Germany">
+                 </div>
                 <div class="h5 mt-4">
-                  <i class="ni business_briefcase-24 mr-2"></i>IT - Information Technologist
+                    <input type="text" id="input-username" class="form-control form-control-alternative"  style="width:225px;font-weight: bold; justify-content: center;
+                    display: inline;"   value="IT - Information Technologist">
+                 
                 </div>
+                <br/>
                 <div>
-                  <i class="ni education_hat mr-2"></i>Boğaziçi University
+                    <input type="text" id="input-username" class="form-control form-control-alternative"  style="width:150px; justify-content: center;
+                    display: inline;"   value="Boğaziçi University">
+    
                 </div>
                 <hr class="my-4">
-                <p>Game Developer and Designer | Entrepreneur | TED Translator & Reviewer | Blogger | Editor | Boun EduTech President | Senior Student @Boğaziçi University - Develop 2D-3D game with Unity
-                </p>
+                <input type="text" id="input-username" class="form-control form-control-alternative"   value="Game Developer and Designer | Entrepreneur | TED Translator & Reviewer | Blogger | Editor | Boun EduTech President | Senior Student @Boğaziçi University - Develop 2D-3D game with Unity">
+
+                <br/>
+                 
                 <a href="#" id="notnow">Show more</a>
               </div>
             </div>
@@ -150,8 +174,8 @@
                   <h3 class="mb-0">Account</h3>
                 </div>
                 <div class="col-4 text-right">
-                  <a href="settings.html" class="btn btn-sm btn-primary">Settings</a>
-                </div>
+                    <span class="btn btn-sm btn-primary" id="notnow">Save</span>
+                  </div>
               </div>
             </div>
             <div class="card-body">
@@ -162,13 +186,13 @@
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-username" >Username</label>
-                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="ali.eren" readonly>
+                        <input type="text" id="input-username" class="form-control form-control-alternative" placeholder="Username" value="ali.eren" >
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group">
                         <label class="form-control-label" for="input-email">Email address</label>
-                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="ali_erenbatman@hotmail.com" readonly>
+                        <input type="email" id="input-email" class="form-control form-control-alternative" placeholder="ali_erenbatman@hotmail.com" >
                       </div>
                     </div>
                   </div>
@@ -176,13 +200,13 @@
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-first-name">First name</label>
-                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Ali Eren" readonly>
+                        <input type="text" id="input-first-name" class="form-control form-control-alternative" placeholder="First name" value="Ali Eren" >
                       </div>
                     </div>
                     <div class="col-lg-6">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-last-name">Last name</label>
-                        <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="Kayhan" readonly>
+                        <input type="text" id="input-last-name" class="form-control form-control-alternative" placeholder="Last name" value="Kayhan" >
                       </div>
                     </div>
                   </div>
@@ -195,7 +219,7 @@
                     <div class="col-md-12">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-address">Address</label>
-                        <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Bibliothekstraße 1, 28359 Bremen" type="text" readonly>
+                        <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Bibliothekstraße 1, 28359 Bremen" type="text" >
                       </div>
                     </div>
                   </div>
@@ -203,19 +227,19 @@
                     <div class="col-lg-4">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-city">City</label>
-                        <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="Bremen" readonly>
+                        <input type="text" id="input-city" class="form-control form-control-alternative" placeholder="City" value="Bremen" >
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group focused">
                         <label class="form-control-label" for="input-country">Country</label>
-                        <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="Germany" readonly>
+                        <input type="text" id="input-country" class="form-control form-control-alternative" placeholder="Country" value="Germany" >
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="form-group">
                         <label class="form-control-label" for="input-country">Postal code</label>
-                        <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code" readonly>
+                        <input type="number" id="input-postal-code" class="form-control form-control-alternative" placeholder="Postal code" >
                       </div>
                     </div>
                   </div>
@@ -226,7 +250,7 @@
                 <div class="pl-lg-4">
                   <div class="form-group focused">
                     <label>Allergies</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>I'm allergic to dark chocolate</textarea>
+                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." >I'm allergic to dark chocolate</textarea>
                   </div>
                 </div>
 
@@ -234,7 +258,7 @@
                 <div class="pl-lg-4">
                   <div class="form-group focused">
                     <label>Chronic illness</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>I do not have a chronic disease </textarea>
+                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." >I do not have a chronic disease </textarea>
                   </div>
                 </div>
                 <!-- Description -->
@@ -242,7 +266,7 @@
                 <div class="pl-lg-4">
                   <div class="form-group focused">
                     <label>About Me</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>
+                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." >
 📚 I am a senior student at Bogazici University Computer and Instructional Technologies teaching. 
 
 💻 Highly motivated game developer and designer with 1 year of experience creating indie games for PC with Unity. 
