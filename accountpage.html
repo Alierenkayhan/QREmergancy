@@ -225,15 +225,13 @@
                 <h6 class="heading-small text-muted mb-4">Allergies</h6>
                 <div class="pl-lg-4">
                   <div class="form-group focused">
-                    <label>Allergies</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>I'm allergic to dark chocolate</textarea>
+                     <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>I'm allergic to dark chocolate</textarea>
                   </div>
                 </div>
 
                 <h6 class="heading-small text-muted mb-4">Chronic illness</h6>
                 <div class="pl-lg-4">
                   <div class="form-group focused">
-                    <label>Chronic illness</label>
                     <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>I do not have a chronic disease </textarea>
                   </div>
                 </div>
@@ -241,35 +239,32 @@
                 <h6 class="heading-small text-muted mb-4">About me</h6>
                 <div class="pl-lg-4">
                   <div class="form-group focused">
-                    <label>About Me</label>
-                    <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>
-📚 I am a senior student at Bogazici University Computer and Instructional Technologies teaching. 
-
-💻 Highly motivated game developer and designer with 1 year of experience creating indie games for PC with Unity. 
-                      
-✍️ Moreover, I have written blogs about different topics on my personal website. I have written blogs on Medium, Blogger, and Patika dev.
-                      
-🚀 Also, I have been working on start-up projects in which I am a founder of Mr. Academic World and a co-founder of RealityVersed.
-                      
-💻 Furthermore, I have been translating TED videos as a volunteer.
-                      
-I am passionate about;
-  ■ 🥋 Judo (2. dan judo black belt, 1. level judo assistant coach, more than 10 years)
-  ■ 🏀 Basketball
-  ■ ♟️ Chess
-  ■ 🎵 Playing Saz
-  ■ 🤖 Solving the Rubik's Cube and Megamix
-  ■ Shot Put
-                      
-To learn more about me and my work, please visit my personal website.
-  ■ 👨‍💻 Personal website => https://alierenkayhan.github.io/</textarea>
+                     <textarea rows="4" class="form-control form-control-alternative" placeholder="A few words about you ..." readonly>
+When I die, I want to donate my organs</textarea>
                   </div>
                 </div>
+               
+                <h6 class="heading-small text-muted mb-4">For Emergency</h6>
+                <div class="pl-lg-4">
+                  <div class="form-group focused">
+        
+                     <input id="input-address" class="form-control form-control-alternative" placeholder="Home Address" value="Philipp Lenz => 0151 - 08321457" type="text" readonly>                
+                  </div>
+                </div>
+
+                <h6 class="heading-small text-muted mb-4">Medication plan</h6>
+                <div class="pl-lg-4">
+                  <div class="form-group focused">
+                    <span class="btn btn-sm btn-primary" id="medicine">X medicine</span>  
+                    <span class="btn btn-sm btn-primary" id="medicine">X medicine</span>  
+                    <span class="btn btn-sm btn-primary" id="medicine">X medicine</span> 
+                  </div>
+                </div>
+
                 <h6 class="heading-small text-muted mb-4">QR</h6>
                 <div class="pl-lg-4">
                   <div class="form-group focused">
-                    <label>QR</label><br/>
-                    <img src="assets/img/qrcode.png" width="20%" height="20%">
+                     <img src="assets/img/qrcode.png" width="20%" height="20%">
                   </div>
                 </div>
               </form>
@@ -2345,6 +2340,16 @@ p {
   title: 'Oops...',
   text: 'We are still developing our website',
   footer: 'Sorry... :('
+  })
+    });
+
+
+    $(document).on('click', '#medicine', function(e) {
+      Swal.fire({
+  icon: 'info',
+  title: 'How To Use X Medicine',
+  text: 'You should use X medicine every morning and night with water until it finish.',
+  footer: 'Please do not forget to use your medicine regularly :)'
   })
     });
   </script>
